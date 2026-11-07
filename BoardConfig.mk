@@ -9,9 +9,6 @@ include vendor/miuicamera-sweet/xiaomi/BoardConfigVendor.mk
 
 MIUICAMERA_PATH := vendor/miuicamera-sweet
 
-# Malloc
-MALLOC_SVELTE := true
-
 # Properties
 TARGET_SYSTEM_PROP += $(MIUICAMERA_PATH)/system.prop
 
